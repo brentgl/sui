@@ -2,9 +2,9 @@ FROM busybox
 
 LABEL maintainer="Jeroen Pardon"
 
-WORKDIR /opt/html
+WORKDIR /home/brent/sui
 
-COPY . /opt/html
+COPY . /home/brent/sui
 
 EXPOSE 80
 
