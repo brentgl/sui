@@ -14,7 +14,7 @@ services:
     ports:
       - 4000:80
     volumes:
-      - ./:/usr/share/nginx/html
+      - /home/brent/sui:/usr/share/nginx/html
 
 networks:
   nginx-proxy:
