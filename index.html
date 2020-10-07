@@ -49,7 +49,7 @@
                         </tr>
                         {{#providers}}
                         <tr>
-                            <td><a href="{{url}}">{{name}}</a></td>
+                            <td><a href="{{url}}" target="_blank">{{name}}</a></td>
                             <td>{{prefix}}</td>
                         </tr>
                         {{/providers}}
@@ -85,14 +85,34 @@
                             <span class="iconify icon" data-icon="mdi-{{icon}}"></span>
                         </div>
                         <div class="apps_text">
-                            <a href="https://{{url}}">{{name}}</a>
-                            <span id="app-address">{{url}}</span>
+                            <a href="{{url}}" target="_blank">{{name}}</a>
+                            <span>{{url}}</span>
                         </div>
                     </div>
                 {{/apps}}                         
             </div>
             </script>
         </section>
+
+        <section id="hardware">
+            <script type="text/handlebars-template" id="hardware-template">
+            <h3>Hardware</h3>
+            <div id="hardware_loop">
+                {{#hardware}}
+                    <div class="hardware_item">
+                        <div class="hardware_icon">
+                            <span class="iconify icon" data-icon="mdi-{{icon}}"></span>
+                        </div>
+                        <div class="hardware_text">
+                            <a href="{{url}}" target="_blank">{{name}}</a>
+                            <span>{{url}}</span>
+                        </div>
+                    </div>
+                {{/hardware}}                         
+            </div>
+            </script>
+        </section>
+
 
          <section id="links">
             <script type="text/handlebars-template" id="links-template">
@@ -102,7 +122,7 @@
                     <div id="links_item">
                         <h4>{{category}}</h4>
                         {{#links}}
-                            <a href="{{url}}" class="theme_color-border theme_text-select">{{name}}</a>
+                            <a href="{{url}}" class="theme_color-border theme_text-select" target="blank">{{name}}</a>
                         {{/links}}
                     </div>
                 {{/bookmarks}}

@@ -1,0 +1,8 @@
+{
+    "hardware" : [
+        {"name":"Home Assistant","url":"http://192.168.10.197:8123","icon":"home-lightbulb-outline"},
+        {"name":"CloudCMD","url":"http://192.168.10.197:8100","icon":"folder-multiple-outline"},
+        {"name":"Jackett","url":"http://192.168.10.197:9117","icon":"tshirt-crew-outline"},
+        {"name":"Heimdall","url":"http://192.168.10.197:88","icon":"order-bool-descending"}
+    ]
+}

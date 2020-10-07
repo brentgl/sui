@@ -1,7 +1,7 @@
 {
             "bookmarks" : [
               {
-                "category": "Communicate",
+                "category": "Arcade",
                 "links": [
                   {
                     "name": "Discord",
@@ -18,7 +18,7 @@
                 ]
               },
               {
-                "category": "Cloud",
+                "category": "Alexa",
                 "links": [
                   {
                     "name": "Box",
@@ -35,7 +35,7 @@
                 ]
               },
               {
-                "category": "Design",
+                "category": "Code/Scripts",
                 "links": [
                   {
                     "name": "Awwwards",
@@ -52,7 +52,7 @@
                 ]
               },
               {
-                "category": "Dev",
+                "category": "Docker",
                 "links": [
                   {
                     "name": "Codepen",
@@ -69,7 +69,7 @@
                 ]
               },
               {
-                "category": "Lifestyle",
+                "category": "Home Assistant",
                 "links": [
                   {
                     "name": "Design Milk",
@@ -86,7 +86,7 @@
                 ]
               },
               {
-                "category": "Media",
+                "category": "Torrents",
                 "links": [
                   {
                     "name": "Spotify",
@@ -103,7 +103,7 @@
                 ]
               },
               {
-                "category": "Reading",
+                "category": "General",
                 "links": [
                   {
                     "name": "Instapaper",
@@ -120,7 +120,7 @@
                 ]
               },
               {
-                "category": "Tech",
+                "category": "New",
                 "links": [
                   {
                     "name": "TheNextWeb",

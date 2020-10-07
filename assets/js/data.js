@@ -35,6 +35,21 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+var data_hardware = "hardware.json";
+
+document.addEventListener("DOMContentLoaded", function () {
+  fetch(data_hardware)
+  .then( response => response.json())
+  .then(
+    function (data) {
+      var mysource = document.getElementById("hardware-template").innerHTML;
+      var mytemplate = Handlebars.compile(mysource);
+      var myresult = mytemplate(data)
+      document.getElementById("hardware").innerHTML = myresult;
+    });
+});
+
+
 var data_providers = "providers.json";
 
 document.addEventListener("DOMContentLoaded", function () {
